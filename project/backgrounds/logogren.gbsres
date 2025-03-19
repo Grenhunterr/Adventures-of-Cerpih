@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "df914831-b1c7-4f8a-9100-099cb2e0f0b6",
+  "name": "logoGren",
+  "symbol": "bg_logogren",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "logoGren.png",
+  "autoColor": true,
+  "tileColors": ""
+}

@@ -8,5 +8,6 @@
   "imageWidth": 160,
   "imageHeight": 64,
   "filename": "AdvOfCerpih.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

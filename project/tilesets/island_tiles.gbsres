@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "fe91658c-4717-4a55-b468-dd8df57ec551",
+  "name": "island_tiles",
+  "symbol": "tileset_island_tiles",
+  "width": 8,
+  "height": 8,
+  "imageWidth": 64,
+  "imageHeight": 64,
+  "filename": "island_tiles.png"
+}

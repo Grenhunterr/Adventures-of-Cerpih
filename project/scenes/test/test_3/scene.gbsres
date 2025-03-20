@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "be57062e-d8d7-40c8-a577-8a3d1a445db7",
+  "_index": 4,
+  "name": "test/test_3",
+  "backgroundId": "13f36820-7277-4448-8f61-e7b7bb5c4966",
+  "tilesetId": "",
+  "width": 40,
+  "height": 32,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f1f+006+0f3+001b+0f4+006+0f3+001b+0f4+006+0f3+001b+0f4+006+0f6+0018+0f4+006+0f6+0018+0f4+006+0f6+0018+0f4+006+0f6+0018+0f4+006+0f6+0018+0f4+006+0f6+0018+0f4+006+0f6+0018+0f4+006+0f6+0018+0f4+006+0f6+0018+0f4+006+0f6+0018+0f4+006+0f6+0018+0f4+006+0f6+0018+0f4+006+0f6+0018+0f4+006+0f6+0018+0f4+006+0f6+0018+0f4+006+0f6+0018+0f4+006+0f6+0018+0f4+006+0f6+0018+0f4+006+0f6+0018+0f4+006+0f6+0018+0f4+006+0f6+0018+0f4+006+0f6+0022+0f6+0022+0f6+0022+0f6+0022+0f6+0022+0f53+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_5",
+  "x": 720,
+  "y": 216,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

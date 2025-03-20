@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "fa952e7f-7362-44a3-8c4f-13e8e37cc414",
+  "_index": 3,
+  "name": "test/test_2",
+  "backgroundId": "972d42b6-d11c-4d89-b2b8-d41409bbef8d",
+  "tilesetId": "",
+  "width": 52,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f116+0016+0f1e+0016+0f1e+0016+0f1e+0016+0f1e+0016+0f1e+0016+0fc+0028+0fc+0028+0fc+0028+0f2a+006+0f2e+006+0f2e+006+0f2e+006+0f10+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_4",
+  "x": 728,
+  "y": 72,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

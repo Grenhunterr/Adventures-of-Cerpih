@@ -1,0 +1,56 @@
+{
+  "_resourceType": "actor",
+  "id": "3a0d9a0f-d84e-4af3-9be2-0e3724221b55",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "30b8266a-0533-4f90-bd33-e97dc1d498ea",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_0",
+  "script": [
+    {
+      "command": "GUD_EVENT_TEXT",
+      "args": {
+        "text": [
+          "Hello! This is a\ntest to see if\ndialogue works\nwith the big avtar"
+        ],
+        "__section": "text",
+        "avatarId": "c2f91f96-7d4a-415a-a2ea-c30d1189dd91",
+        "avatarPos": "left",
+        "avatarX": 0,
+        "avatarY": 0,
+        "minHeight": 6,
+        "maxHeight": 7,
+        "textX": 3,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "036361df-07dc-47b6-ba46-a73047849544"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 14,
+  "y": 14,
+  "_index": 0
+}

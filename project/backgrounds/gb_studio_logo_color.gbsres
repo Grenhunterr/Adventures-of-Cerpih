@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "fb25adaa-1c5c-45b4-a794-bc1da463ff57",
+  "name": "gb studio logo color",
+  "symbol": "bg_gb_studio_logo_color",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "gb studio logo color.png",
+  "tileColors": "0118+00c+018+00c+018+00c+018+00c+018+004+014+004+018+004+014+004+018+004+014+004+018+00c+018+00c+018+00c+019+00a+01a+002+01!00!013+003+01a+00b+019+00b+019+00b+019+00b+0118+",
+  "autoColor": true
+}

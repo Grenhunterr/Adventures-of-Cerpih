@@ -17,7 +17,7 @@
     "default-bg-5",
     "default-bg-6",
     "dmg",
-    "default-ui"
+    "2c0371b9-1ac3-48a6-a2dd-3c97df4fae62"
   ],
   "defaultSpritePaletteIds": [
     "default-sprite",
@@ -27,7 +27,7 @@
     "63f65b99-47fd-4879-9d44-a0f4920ef4a6",
     "default-sprite",
     "default-sprite",
-    "default-sprite"
+    "2c0371b9-1ac3-48a6-a2dd-3c97df4fae62"
   ],
   "defaultSpritePaletteId": "default-sprite",
   "defaultUIPaletteId": "default-ui",
@@ -84,6 +84,41 @@
   "colorMode": "color",
   "generateDebugFilesEnabled": false,
   "compilerPreset": 3000,
-  "scriptEventPresets": {},
+  "scriptEventPresets": {
+    "EVENT_LAUNCH_PROJECTILE": {
+      "0e18ce05-7457-490c-9171-f0ed3e23b747": {
+        "id": "0e18ce05-7457-490c-9171-f0ed3e23b747",
+        "name": "Sword",
+        "groups": [
+          "projectile",
+          "source",
+          "direction"
+        ],
+        "args": {
+          "spriteSheetId": "bde6418b-fc8b-41d0-9b17-7756fe0f7e65",
+          "spriteStateId": "",
+          "speed": 2,
+          "animSpeed": 15,
+          "lifeTime": 0.1,
+          "loopAnim": true,
+          "destroyOnHit": true,
+          "collisionGroup": "3",
+          "collisionMask": [
+            "1"
+          ],
+          "actorId": "$self$",
+          "x": 0,
+          "y": 0,
+          "directionType": "actor",
+          "otherActorId": "$self$",
+          "direction": "right",
+          "angle": 0,
+          "angleVariable": "L0",
+          "targetActorId": "$self$",
+          "initialOffset": 5
+        }
+      }
+    }
+  },
   "scriptEventDefaultPresets": {}
 }

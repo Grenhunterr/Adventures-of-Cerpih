@@ -22,6 +22,89 @@
         "musicId": "fc94a10d-001a-499c-b8fb-8fa1ec060b56"
       },
       "id": "bda1ac05-d00c-4126-9397-06d8768020fa"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": false,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_GET_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "vectorX": "L5",
+              "vectorY": "L4"
+            },
+            "id": "66c6a0a2-df1d-4553-a3bc-eb9f157c85fc"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "variable",
+                "value": "L5"
+              },
+              "y": {
+                "type": "variable",
+                "value": "L4"
+              }
+            },
+            "id": "bcea2473-12ef-482a-9fe4-c8ee7ee05639"
+          },
+          {
+            "command": "EVENT_LAUNCH_PROJECTILE",
+            "args": {
+              "__presetId": "0e18ce05-7457-490c-9171-f0ed3e23b747",
+              "__section": "projectile",
+              "spriteSheetId": "bde6418b-fc8b-41d0-9b17-7756fe0f7e65",
+              "spriteStateId": "",
+              "actorId": "$self$",
+              "x": 0,
+              "y": 0,
+              "directionType": "actor",
+              "otherActorId": "$self$",
+              "direction": "right",
+              "angle": 0,
+              "angleVariable": "L0",
+              "targetActorId": "$self$",
+              "initialOffset": 5,
+              "speed": 2,
+              "animSpeed": 15,
+              "lifeTime": 0.1,
+              "loopAnim": true,
+              "destroyOnHit": true,
+              "collisionGroup": "3",
+              "collisionMask": [
+                "1"
+              ]
+            },
+            "id": "89de4c04-74ec-48a0-a789-90f3d242a074"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "variable",
+                "value": "L5"
+              },
+              "y": {
+                "type": "variable",
+                "value": "L4"
+              }
+            },
+            "id": "88f4311e-517c-42aa-b1c7-c38044550c9d"
+          }
+        ]
+      },
+      "id": "45f25cb4-5a21-481e-9b65-43b8957eaca6"
     }
   ],
   "playerHit1Script": [],

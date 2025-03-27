@@ -15,7 +15,91 @@
   "symbol": "scene_5",
   "x": 720,
   "y": 216,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": false,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_GET_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "vectorX": "L5",
+              "vectorY": "L4"
+            },
+            "id": "fb66d35b-e9c0-4409-8125-fe47156b6e90"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "variable",
+                "value": "L5"
+              },
+              "y": {
+                "type": "variable",
+                "value": "L4"
+              }
+            },
+            "id": "451bc64b-7fcf-40c4-84dc-5e33247594d3"
+          },
+          {
+            "command": "EVENT_LAUNCH_PROJECTILE",
+            "args": {
+              "__presetId": "0e18ce05-7457-490c-9171-f0ed3e23b747",
+              "__section": "projectile",
+              "spriteSheetId": "bde6418b-fc8b-41d0-9b17-7756fe0f7e65",
+              "spriteStateId": "",
+              "actorId": "$self$",
+              "x": 0,
+              "y": 0,
+              "directionType": "actor",
+              "otherActorId": "$self$",
+              "direction": "right",
+              "angle": 0,
+              "angleVariable": "L0",
+              "targetActorId": "$self$",
+              "initialOffset": 5,
+              "speed": 2,
+              "animSpeed": 15,
+              "lifeTime": 0.1,
+              "loopAnim": true,
+              "destroyOnHit": true,
+              "collisionGroup": "3",
+              "collisionMask": [
+                "1"
+              ]
+            },
+            "id": "65e76f56-8d77-4c99-bd53-0fa37d5fbbb3"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "variable",
+                "value": "L5"
+              },
+              "y": {
+                "type": "variable",
+                "value": "L4"
+              }
+            },
+            "id": "aa3a9ae2-fd36-440f-9352-da2e5c91a81d"
+          }
+        ]
+      },
+      "id": "9e621d3a-202c-4d5c-a935-6555a4c248ba"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": []

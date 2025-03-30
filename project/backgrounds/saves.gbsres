@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "9896ab21-2bc7-4b35-a8c4-702c0d4e9e56",
+  "name": "saves",
+  "symbol": "bg_saves",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "saves.png",
+  "autoColor": true,
+  "tileColors": ""
+}

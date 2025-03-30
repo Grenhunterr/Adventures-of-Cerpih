@@ -67,16 +67,17 @@
               "angle": 0,
               "angleVariable": "L0",
               "targetActorId": "$self$",
-              "initialOffset": 5,
+              "initialOffset": 6,
               "speed": 2,
               "animSpeed": 15,
-              "lifeTime": 0.1,
+              "lifeTime": 0.2,
               "loopAnim": true,
               "destroyOnHit": true,
               "collisionGroup": "3",
               "collisionMask": [
                 "1"
-              ]
+              ],
+              "__collapse": false
             },
             "id": "65e76f56-8d77-4c99-bd53-0fa37d5fbbb3"
           },

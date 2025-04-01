@@ -16,7 +16,19 @@
   "prefabScriptOverrides": {},
   "symbol": "actor_1",
   "script": [],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L5",
+        "value": {
+          "type": "number",
+          "value": 3
+        }
+      },
+      "id": "99cc3230-811a-4113-95eb-4f190d7a28da"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
@@ -24,9 +36,59 @@
     {
       "command": "EVENT_ACTOR_PUSH",
       "args": {
-        "continue": true
+        "continue": false
       },
       "id": "26ca99bb-9f53-4dbf-a1e9-c32ae41aaee1"
+    },
+    {
+      "command": "EVENT_DEC_VALUE",
+      "args": {
+        "variable": "L5"
+      },
+      "id": "f65ec8d9-77a5-40c9-9101-2ae9dae81051"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L5"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "crash",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": false,
+              "effect": 0
+            },
+            "id": "b1ff7d26-f979-4ca8-a644-70d3e7999815"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "a96089be-7694-4faa-8491-9d673e92c0a5"
+          }
+        ],
+        "false": []
+      },
+      "id": "c415e3c4-d319-40d3-b6b0-0444f2bec44f"
     }
   ],
   "x": 15,

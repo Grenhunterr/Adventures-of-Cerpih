@@ -160,6 +160,11 @@
       "id": "a3cddbd6-2130-425c-8d01-4e0249a67b6e__L2",
       "name": "Local 2",
       "symbol": "var_local_2"
+    },
+    {
+      "id": "a3cddbd6-2130-425c-8d01-4e0249a67b6e__L5",
+      "name": "helth",
+      "symbol": "var_helth"
     }
   ]
 }

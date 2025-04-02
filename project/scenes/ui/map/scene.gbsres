@@ -2,7 +2,7 @@
   "_resourceType": "scene",
   "id": "2beb4de9-98cc-43f3-9e5e-ca72e342ab63",
   "_index": 7,
-  "name": "Scene 8",
+  "name": "ui/map",
   "backgroundId": "a7e492e4-c1f2-4b45-bd04-8059f8bcaaae",
   "tilesetId": "",
   "width": 20,

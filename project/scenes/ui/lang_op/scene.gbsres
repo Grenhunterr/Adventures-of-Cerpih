@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "22946ca5-6c23-4a90-bab1-c1f7706374c7",
+  "_index": 8,
+  "name": "ui/lang_op",
+  "backgroundId": "c9511395-ff87-4857-8cf9-82798499ddcc",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_9",
+  "x": 144,
+  "y": 448,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

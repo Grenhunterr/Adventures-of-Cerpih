@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "b3552db1-80ea-42d3-81b6-51cbedb7205d",
+  "name": "dmg_warn",
+  "symbol": "bg_dmg_warn",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "dmg_warn.png",
+  "autoColor": false,
+  "tileColors": "00168+"
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "c9511395-ff87-4857-8cf9-82798499ddcc",
+  "name": "lang_op",
+  "symbol": "bg_lang_op",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "lang_op.png",
+  "autoColor": true,
+  "tileColors": ""
+}

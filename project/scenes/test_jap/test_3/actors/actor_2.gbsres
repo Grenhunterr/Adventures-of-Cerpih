@@ -1,0 +1,49 @@
+{
+  "_resourceType": "actor",
+  "id": "807e4380-1202-4040-b6cf-65161c463e9a",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "30b8266a-0533-4f90-bd33-e97dc1d498ea",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_5",
+  "script": [
+    {
+      "command": "EVENT_DIALOGUE_NAME_LARGE_AVATAR",
+      "args": {
+        "text": [
+          "This is a cat, an example\nof an enemy",
+          "The cat wont be an\nactual enemy in the game",
+          "im just using it as an\nexample"
+        ],
+        "__scriptTabs": "text",
+        "nameTag": "SIGN",
+        "nameX": 2,
+        "avatarType": "small",
+        "avatarId": "",
+        "largeAvatar": "",
+        "avatarX": 2,
+        "avatarY": 2,
+        "avatarWidth": 3,
+        "orientation": "left"
+      },
+      "id": "fab43087-8997-4d6b-a3cd-0d83fd9abc89"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 15,
+  "y": 9,
+  "_index": 1
+}

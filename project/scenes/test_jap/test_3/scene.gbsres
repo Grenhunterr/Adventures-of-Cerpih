@@ -1,0 +1,107 @@
+{
+  "_resourceType": "scene",
+  "id": "7c4799fc-bfe1-41c3-9eb9-88d788b0d427",
+  "_index": 12,
+  "name": "test_jap/test_3",
+  "backgroundId": "13f36820-7277-4448-8f61-e7b7bb5c4966",
+  "tilesetId": "",
+  "width": 40,
+  "height": 32,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f1f+006+0f3+001b+0f4+006+0f3+001b+0f4+006+0f3+001b+0f4+006+0f6+0018+0f4+006+0f6+0018+0f4+006+0f6+0018+0f4+006+0f6+0018+0f4+006+0f6+0018+0f4+006+0f6+0018+0f4+006+0f6+0018+0f4+006+0f6+0018+0f4+006+0f6+0018+0f4+006+0f6+0018+0f4+006+0f6+0018+0f4+006+0f6+0018+0f4+006+0f6+0018+0f4+006+0f6+0018+0f4+006+0f6+0018+0f4+006+0f6+0018+0f4+006+0f6+0018+0f4+006+0f6+0018+0f4+006+0f6+0018+0f4+006+0f6+0018+0f4+006+0f6+0018+0f4+006+0f6+0022+0f6+0022+0f6+0022+0f6+0022+0f6+0022+0f53+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_13",
+  "x": 720,
+  "y": 736,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": false,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_GET_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "vectorX": "L5",
+              "vectorY": "L4"
+            },
+            "id": "7cbcf254-4933-45ff-9e35-bcec8d3a51ab"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "variable",
+                "value": "L5"
+              },
+              "y": {
+                "type": "variable",
+                "value": "L4"
+              }
+            },
+            "id": "f5b2ee90-09f1-45e3-86eb-fa996a3b882d"
+          },
+          {
+            "command": "EVENT_LAUNCH_PROJECTILE",
+            "args": {
+              "__presetId": "0e18ce05-7457-490c-9171-f0ed3e23b747",
+              "__section": "projectile",
+              "spriteSheetId": "bde6418b-fc8b-41d0-9b17-7756fe0f7e65",
+              "spriteStateId": "",
+              "actorId": "$self$",
+              "x": 0,
+              "y": 0,
+              "directionType": "actor",
+              "otherActorId": "$self$",
+              "direction": "right",
+              "angle": 0,
+              "angleVariable": "L0",
+              "targetActorId": "$self$",
+              "initialOffset": 6,
+              "speed": 2,
+              "animSpeed": 15,
+              "lifeTime": 0.2,
+              "loopAnim": true,
+              "destroyOnHit": true,
+              "collisionGroup": "3",
+              "collisionMask": [
+                "1"
+              ],
+              "__collapse": false
+            },
+            "id": "c768f020-1409-4505-84e8-cc19b383fb2a"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "variable",
+                "value": "L5"
+              },
+              "y": {
+                "type": "variable",
+                "value": "L4"
+              }
+            },
+            "id": "c69e59dd-80ce-4b1e-9e14-221ce5da0485"
+          }
+        ]
+      },
+      "id": "21b70a5d-09ce-436d-9ae8-52cd9a8c1409"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

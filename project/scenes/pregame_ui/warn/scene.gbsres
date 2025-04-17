@@ -1,0 +1,104 @@
+{
+  "_resourceType": "scene",
+  "id": "e964b560-7ee2-45fd-b097-79ab669b7619",
+  "_index": 9,
+  "name": "pregame_ui/warn",
+  "backgroundId": "b3552db1-80ea-42d3-81b6-51cbedb7205d",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_10",
+  "x": 144,
+  "y": 632,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "dccf3a0b-dd9b-4433-b646-5dd62279ba07"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 2
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "!F:fcaa0b71-7a98-490a-8290-fd4b7bb69499!いろがない？でていけ！\n\nゲームきをけしてください。\nあそびたいなら、\nいろをみつけてください。"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 8,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "711c2021-7713-46ba-bd74-ae078134337d"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "No color? Get out!\n\nPlease turn of the \nconsole. If you want to \nplay, find some color."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 8,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "1aa21653-47e7-4886-81f1-f57674a2be81"
+          }
+        ]
+      },
+      "id": "fa3a7683-76bd-48b9-b6c7-9916235f369f"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

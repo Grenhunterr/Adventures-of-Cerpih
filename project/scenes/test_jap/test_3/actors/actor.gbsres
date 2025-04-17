@@ -1,0 +1,97 @@
+{
+  "_resourceType": "actor",
+  "id": "c16748ec-2cc8-4b9d-8014-b9e6e387265a",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "1e27bb8e-c805-435a-8b87-05b4f50da4f0",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "1",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_4",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L5",
+        "value": {
+          "type": "number",
+          "value": 3
+        }
+      },
+      "id": "966e8892-2485-4bbb-95d7-4c535a4f6693"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [
+    {
+      "command": "EVENT_ACTOR_PUSH",
+      "args": {
+        "continue": false
+      },
+      "id": "f76a6426-461b-445d-9cb4-b8d31d8b70c6"
+    },
+    {
+      "command": "EVENT_DEC_VALUE",
+      "args": {
+        "variable": "L5"
+      },
+      "id": "5f58c2a8-d98e-4481-abd0-d9a9e087b730"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L5"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "crash",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": false,
+              "effect": 0
+            },
+            "id": "6d91e14f-c419-4fda-8701-465a699fc6c8"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "b6f5f2ef-359b-411b-bc96-b0380fe8877f"
+          }
+        ],
+        "false": []
+      },
+      "id": "73d91fce-c56a-4e94-8a8f-e8e841e1d738"
+    }
+  ],
+  "x": 15,
+  "y": 17,
+  "_index": 0
+}

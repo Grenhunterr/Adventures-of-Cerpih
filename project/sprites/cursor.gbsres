@@ -30,8 +30,8 @@
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
-                  "objPalette": "OBP0",
-                  "paletteIndex": 0,
+                  "objPalette": "OBP1",
+                  "paletteIndex": 7,
                   "priority": false
                 },
                 {
@@ -43,8 +43,8 @@
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
-                  "objPalette": "OBP0",
-                  "paletteIndex": 0,
+                  "objPalette": "OBP1",
+                  "paletteIndex": 7,
                   "priority": false
                 }
               ]
@@ -66,8 +66,8 @@
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
-                  "objPalette": "OBP0",
-                  "paletteIndex": 0,
+                  "objPalette": "OBP1",
+                  "paletteIndex": 7,
                   "priority": false
                 },
                 {
@@ -79,8 +79,8 @@
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
-                  "objPalette": "OBP0",
-                  "paletteIndex": 0,
+                  "objPalette": "OBP1",
+                  "paletteIndex": 7,
                   "priority": false
                 }
               ]
@@ -97,8 +97,8 @@
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
-                  "objPalette": "OBP0",
-                  "paletteIndex": 0,
+                  "objPalette": "OBP1",
+                  "paletteIndex": 7,
                   "priority": false
                 },
                 {
@@ -110,8 +110,8 @@
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
-                  "objPalette": "OBP0",
-                  "paletteIndex": 0,
+                  "objPalette": "OBP1",
+                  "paletteIndex": 7,
                   "priority": false
                 }
               ]

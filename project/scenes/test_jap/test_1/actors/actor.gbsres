@@ -1,0 +1,86 @@
+{
+  "_resourceType": "actor",
+  "id": "e9fadd2c-34fe-421f-9ce9-1503700d1788",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "30b8266a-0533-4f90-bd33-e97dc1d498ea",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_3",
+  "script": [
+    {
+      "command": "EVENT_DIALOGUE_NAME_LARGE_AVATAR",
+      "args": {
+        "text": [
+          "!F:fcaa0b71-7a98-490a-8290-fd4b7bb69499!Hello! This is an exmaple\nof what dialogue will\nlook like!"
+        ],
+        "__scriptTabs": "text",
+        "nameTag": "SIGN",
+        "nameX": 2,
+        "avatarType": "small",
+        "avatarId": "",
+        "largeAvatar": "",
+        "avatarX": 2,
+        "avatarY": 2,
+        "avatarWidth": 3,
+        "orientation": "left"
+      },
+      "id": "36ffc081-7b64-4145-acfc-225682c7a0f2"
+    },
+    {
+      "command": "EVENT_DIALOGUE_NAME_LARGE_AVATAR",
+      "args": {
+        "text": [
+          "!F:fcaa0b71-7a98-490a-8290-fd4b7bb69499!Oh! Sweet!"
+        ],
+        "__scriptTabs": "text",
+        "nameTag": "CERPIH",
+        "nameX": 2,
+        "avatarType": "small",
+        "avatarId": "",
+        "largeAvatar": "",
+        "avatarX": 2,
+        "avatarY": 2,
+        "avatarWidth": 3,
+        "orientation": "left"
+      },
+      "id": "cc73ffd5-3383-4eba-86ed-c60b877577f9"
+    },
+    {
+      "command": "EVENT_DIALOGUE_NAME_LARGE_AVATAR",
+      "args": {
+        "text": [
+          "!F:fcaa0b71-7a98-490a-8290-fd4b7bb69499!Press !F:79f5abf4-1c29-4e96-9c9a-1f3e3d471e9f!b!F:fcaa0b71-7a98-490a-8290-fd4b7bb69499! to use your\nsword!",
+          "!F:fcaa0b71-7a98-490a-8290-fd4b7bb69499!Press !F:79f5abf4-1c29-4e96-9c9a-1f3e3d471e9f!a!F:fcaa0b71-7a98-490a-8290-fd4b7bb69499! to interact\nwith things!"
+        ],
+        "__scriptTabs": "text",
+        "nameTag": "SIGN",
+        "nameX": 2,
+        "avatarType": "small",
+        "avatarId": "",
+        "largeAvatar": "",
+        "avatarX": 2,
+        "avatarY": 2,
+        "avatarWidth": 3,
+        "orientation": "left"
+      },
+      "id": "6afb9fa4-f4b9-4d3f-a80c-b982b58f8ccd"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 9,
+  "y": 9,
+  "_index": 0
+}

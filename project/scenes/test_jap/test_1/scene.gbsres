@@ -1,0 +1,113 @@
+{
+  "_resourceType": "scene",
+  "id": "89c779b2-ebf4-4de5-8651-d6002661ad13",
+  "_index": 10,
+  "name": "test_jap/test_1",
+  "backgroundId": "f365388d-a189-4db4-b076-eb1dd987a682",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f3f+0011+0f3+0011+0f3+0011+0f3+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+0011+0f3+0011+0f3+0011+0f50+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_11",
+  "x": 560,
+  "y": 656,
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "fc94a10d-001a-499c-b8fb-8fa1ec060b56"
+      },
+      "id": "fc69430b-6352-445a-bfd0-2f667dd84533"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": false,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_GET_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "vectorX": "L5",
+              "vectorY": "L4"
+            },
+            "id": "2a8a98a0-406b-4e58-9f0b-da2ceb6068f2"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "variable",
+                "value": "L5"
+              },
+              "y": {
+                "type": "variable",
+                "value": "L4"
+              }
+            },
+            "id": "f79cf29a-7b96-494a-a5d5-3158a522a38b"
+          },
+          {
+            "command": "EVENT_LAUNCH_PROJECTILE",
+            "args": {
+              "__presetId": "0e18ce05-7457-490c-9171-f0ed3e23b747",
+              "__section": "presets",
+              "spriteSheetId": "bde6418b-fc8b-41d0-9b17-7756fe0f7e65",
+              "spriteStateId": "",
+              "actorId": "$self$",
+              "x": 0,
+              "y": 0,
+              "directionType": "actor",
+              "otherActorId": "$self$",
+              "direction": "right",
+              "angle": 0,
+              "angleVariable": "L0",
+              "targetActorId": "$self$",
+              "initialOffset": 5,
+              "speed": 2,
+              "animSpeed": 15,
+              "lifeTime": 0.1,
+              "loopAnim": true,
+              "destroyOnHit": true,
+              "collisionGroup": "3",
+              "collisionMask": [
+                "1"
+              ]
+            },
+            "id": "393470ff-c5bf-46ba-8f70-f80f37f0345f"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "variable",
+                "value": "L5"
+              },
+              "y": {
+                "type": "variable",
+                "value": "L4"
+              }
+            },
+            "id": "a2d69444-2eab-464d-8aab-a71f6d6b23d1"
+          }
+        ]
+      },
+      "id": "a06087ca-577d-4f0e-90f2-0ba3e9584b83"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

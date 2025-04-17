@@ -3,8 +3,8 @@
   "variables": [
     {
       "id": "0",
-      "name": "Quest1",
-      "symbol": ""
+      "name": "langOp",
+      "symbol": "var_langop"
     },
     {
       "id": "1",
@@ -165,6 +165,21 @@
       "id": "a3cddbd6-2130-425c-8d01-4e0249a67b6e__L5",
       "name": "helth",
       "symbol": "var_helth"
+    },
+    {
+      "id": "c16748ec-2cc8-4b9d-8014-b9e6e387265a__L0",
+      "name": "playDir",
+      "symbol": "var_playdir_0"
+    },
+    {
+      "id": "c16748ec-2cc8-4b9d-8014-b9e6e387265a__L2",
+      "name": "Local 2",
+      "symbol": "var_local_0"
+    },
+    {
+      "id": "c16748ec-2cc8-4b9d-8014-b9e6e387265a__L5",
+      "name": "helth",
+      "symbol": "var_helth_0"
     }
   ]
 }

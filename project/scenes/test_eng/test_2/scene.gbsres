@@ -98,6 +98,28 @@
         ]
       },
       "id": "6fd868ab-11d2-4362-820f-d5554cc1f706"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "override": false,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "fde0f775-6891-441e-8d7f-70b4bddb3f43"
+            },
+            "id": "6d171e27-9af4-4673-902e-f88370143033"
+          }
+        ]
+      },
+      "id": "9e8ddf83-2dc4-4ed6-817c-d227d40777c7"
     }
   ],
   "playerHit1Script": [],

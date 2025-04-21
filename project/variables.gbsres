@@ -8,18 +8,18 @@
     },
     {
       "id": "1",
-      "name": "Quest2",
-      "symbol": ""
+      "name": "mapknow",
+      "symbol": "var_mapknow"
     },
     {
       "id": "2",
-      "name": "Quest3",
-      "symbol": ""
+      "name": "PlayXMap",
+      "symbol": "var_playxmap"
     },
     {
       "id": "3",
-      "name": "Quest4",
-      "symbol": ""
+      "name": "PlayYMap",
+      "symbol": "var_playymap"
     },
     {
       "id": "4",

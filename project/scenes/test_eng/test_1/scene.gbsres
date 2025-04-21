@@ -105,6 +105,28 @@
         ]
       },
       "id": "45f25cb4-5a21-481e-9b65-43b8957eaca6"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "override": false,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "fde0f775-6891-441e-8d7f-70b4bddb3f43"
+            },
+            "id": "cdac0d99-c3df-4984-9f68-3b175dea2f0e"
+          }
+        ]
+      },
+      "id": "38c438b5-2891-49e6-be2a-430bd2cb4140"
     }
   ],
   "playerHit1Script": [],
